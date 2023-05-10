@@ -1,0 +1,72 @@
+.space-between {
+    display: flex;
+    justify-content: space-between;
+    
+  }
+  
+  #example {
+    width: 100%;
+    height: 100%
+  
+  }
+  
+  #left {
+    float:left;
+    width: 30%;
+    margin-top: 0%;
+    position: fixed;
+  }
+  
+  #right {
+    float:right;
+    width: 70%;
+    height: 20%;
+    cursor:crosshair;
+  }
+  
+  .BodyText{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    color: black;
+  }
+
+  #Parsons{
+    margin-top: 50%;
+  }
+
+  #WebLink{
+    text-decoration: none;
+  }
+
+  #WebLink:hover{
+    text-decoration: underline;
+    color: black;
+  }
+
+  .LinkText{
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    font-size: 2.5vw;
+    font-style: italic;
+    color: black;
+  }
+
+  .LinkText:hover{
+    color: red;
+    font-style: normal;
+  }
+
+  a{
+    text-decoration: underline;
+    color: black;
+  }
+
+  a:hover{
+    text-decoration: underline;
+    color: red;
+  }
+
+  html{
+    cursor: crosshair;
+  }
